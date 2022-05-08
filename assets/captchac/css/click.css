@@ -1,0 +1,29 @@
+.validate_prompt2{
+	font-size: 12px;
+    margin-left: 5px;
+    background: #f8f8f8;
+	border-radius: 20px;
+}
+.closeBtn:before {
+    content: "\00D7";
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.captcha-icon-point{
+	width: 30px;
+    height: 37px;
+    position: absolute;
+}
+.captcha-point-0 {
+    background-image: url(./click_icon.png);
+    background-position: 0 -364px;
+}
+.captcha-point-1 {
+    background-image: url(./click_icon.png);
+    background-position: 0 -220px;
+}
+.captcha-point-2 {
+    background-image: url(./click_icon.png);
+    background-position: 0 145px;
+}
